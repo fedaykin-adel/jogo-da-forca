@@ -2,8 +2,8 @@
 
 1. Clone o repositório
 
-git clone https://github.com/seuusuario/seu-projeto.git
-cd seu-projeto
+git clone https://github.com/fedaykin-adel/jogo-da-forca.git
+cd jogo-da-forca
 
 2. Crie um ambiente virtual
 
@@ -11,6 +11,7 @@ python3 -m venv venv
 source venv/bin/activate # No Windows: venv\Scripts\activate
 
 3. Instale as dependências
+   pip install -r requirements.txt
 
 🛠️ Requisitos
 

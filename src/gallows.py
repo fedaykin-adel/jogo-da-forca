@@ -1,6 +1,6 @@
 
 import sys
-from .dictionary import Dictionary
+from dictionary import Dictionary
 class Gallows:
     def __init__(self):
         self.used_words = []
