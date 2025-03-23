@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "forca=src.main:main",
+            "forca=main:main",
         ],
     },
     python_requires=">=3.10",

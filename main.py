@@ -1,4 +1,4 @@
-from gallows import Gallows
+from src import Gallows
 
 if __name__ == "__main__":
     game = Gallows()

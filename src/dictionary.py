@@ -5,6 +5,7 @@ class WordData(TypedDict):
     map: List[Dict[str,any]]
     dica:str
     word:str
+    length: int
 class Dictionary():
     def __init__(self):
         
@@ -33,7 +34,8 @@ class Dictionary():
         data:WordData = {
             "map":temp_dict, 
             "dica":self.words[select_word]["dica"],
-            "word":self.words[select_word]["word"]
+            "word":self.words[select_word]["word"], 
+            "length": len(self.words[select_word]["word"])
         }
         
         self.dict_map = data
